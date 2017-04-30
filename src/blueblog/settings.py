@@ -32,6 +32,7 @@ ALLOWED_HOSTS = ['192.168.1.110']
 
 INSTALLED_APPS = [
     'accounts',
+    'blog',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -121,3 +122,4 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 LOGIN_REDIRECT_URL = '/'
+LOGIN_URL = '/login/'
